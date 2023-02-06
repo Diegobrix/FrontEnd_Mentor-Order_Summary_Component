@@ -8,7 +8,7 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <link rel="stylesheet" type="text/css" href="./dist/css/indexStyles.css">
+  <link rel="stylesheet" type="text/css" href="./css/indexStyles.css">
 
   <!-- Order Summary
 
@@ -26,18 +26,24 @@
 <body>
   <main>
     <figure>
-      <img src="" alt="">
+      <img src="./images/illustration-hero.svg" alt="Person Listening to Music">
     </figure>
-    <h1>order summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-    <div class="plan-wrapper">
-      <i class="plan-wrapper__icon"></i>
-      <h2>annual plan</h2>
-      <p>$59.99/year</p>
-      <a href="">change</a>
-    </div>
-    <button>Proceed to Payment</button>
-    <button>Cancel Order</button>
+    <section class="description-wrapper">
+      <h1>order summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <div class="plan-wrapper">
+        <i class="plan-wrapper__icon"></i>
+        <div class="plan__description">
+          <h2>annual plan</h2>
+          <p>$59.99/year</p>
+        </div>
+        <a href="#">change</a>
+      </div>
+      <div class="payment-wrapper">
+        <button class="payment-confirm">Proceed to Payment</button>
+        <button class="payment-cancel">Cancel Order</button>
+      </div>
+    </section>
   </main>
   
   <div class="attribution">
