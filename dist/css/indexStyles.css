@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+:root {
+    /* Primary Colours */
+    --primary-100: hsl(225 100% 94%);
+    --primary-200: hsl(245 75% 52%);
+
+    /* Neutral Colours */
+    --neutral-100: hsl(225 100% 98%);
+    --neutral-200: hsl(224 23% 55%);
+    --neutral-300: hsl(223 47% 23%);
+
+    /* Typography */
+    --f-family: 'Red Hat Display', sans-serif;
+    --fw-100: 500;
+    --fw-200: 700;
+    --fw-300: 900;
+
+    font-size: 16px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Mobile - 375px */
+/* Desktop - 1440px */
